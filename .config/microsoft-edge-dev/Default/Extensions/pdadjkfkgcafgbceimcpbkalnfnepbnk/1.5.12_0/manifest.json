@@ -1,0 +1,53 @@
+{
+   "author": "KardiaChain",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/kardia/logo.png",
+         "38": "images/kardia/logo.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "KardiaChain Wallet"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+M",
+            "linux": "Alt+Shift+M",
+            "mac": "Alt+Shift+M",
+            "windows": "Alt+Shift+M"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentscript.js" ],
+      "matches": [ "file://*/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "vendor/trezor/content-script.js" ],
+      "matches": [ "*://connect.trezor.io/*/popup.html" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'sha256-wwhr/c3oE0n36uT3xqNwBltM/25cmRuGMfhD/3UdIjA=' https://filum-assets.sgp1.digitaloceanspaces.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "https://metamask.io/*" ]
+   },
+   "icons": {
+      "128": "images/kardia/logo.png",
+      "16": "images/kardia/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAreAFsEFYJ0/03g3lvk794MQLy81qSuWGg+nS6glwQrEUTqpzn1ywi7JURLsiay1phsZ3zt32j6BtbFvDVEHsREnBNENBFq3Sbemj7CnwgGzuMEzVgaUapgj4L6Z8R7GsmgKojOSBo64tZ4F9LLmYSyxdeI2qT3NmxkfpH9y3C+hG+cUz+akb2abQ3LB1XE+d0Qd7aTBoDsehkFUEhnkfuYQCq4LATAYH05aGBI2WPUD2gC4GvnL2XTYNxmS0aqeGkBgVlGvyYvq9fGghD3hT+KW/V7ZPE4EDZkQlf46Rj5SkV4Dx5IChhp/rdzG+ZqQViwQYtKfF2waMrUupLtXVFQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "unlimitedStorage", "clipboardWrite", "http://localhost:8545/", "https://*.infura.io/", "activeTab", "*://*.eth/", "notifications" ],
+   "short_name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.12",
+   "web_accessible_resources": [ "inpage.js", "phishing.html" ]
+}

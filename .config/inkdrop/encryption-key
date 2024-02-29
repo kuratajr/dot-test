@@ -1,0 +1,8 @@
+{
+    "algorithm": "aes-256-gcm",
+    "content": "AnyRJ4gJ+U5V5zSLJykUPchL2MKuxgNIjFqR/6aUFTs=",
+    "iv": "deafa6d4a2bca78ae90cd9c2",
+    "tag": "abb173521d79c799d83782e8f988731c",
+    "salt": "a1c14a0f46f0d339ab13086d6923541b",
+    "iterations": 128
+}

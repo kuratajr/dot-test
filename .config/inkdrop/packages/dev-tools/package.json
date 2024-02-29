@@ -1,0 +1,43 @@
+{
+  "_from": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+  "_id": "dev-tools@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0MXOAKm6aMPUcB0Lb5kP6dY28fs/J2NkJcmD+eT7sF6fUg2l3TfxF4D+pA26FWCoqNhcvrZyC3OfMXwhpPK4VQ==",
+  "_location": "/dev-tools",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+    "rawSpec": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+    "saveSpec": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+    "fetchSpec": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+  "_shasum": "6b57614268a9d67af73019fa94a2b87ef56866b1",
+  "_spec": "https://api.inkdrop.app/v1/packages/dev-tools/versions/0.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-2023516-368881-1ioq562.eknw",
+  "bugs": {
+    "url": "https://github.com/inkdropapp/inkdrop-dev-tools/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Developer tools for Inkdrop",
+  "engines": {
+    "inkdrop": "^5.3.1"
+  },
+  "homepage": "https://github.com/inkdropapp/inkdrop-dev-tools#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/dev-tools",
+  "name": "dev-tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inkdropapp/inkdrop-dev-tools.git"
+  },
+  "version": "0.1.0"
+}

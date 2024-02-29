@@ -1,0 +1,6 @@
+2023/06/16-17:30:21.687 bcb0 Reusing MANIFEST /home/kuratajr/.config/microsoft-edge-dev/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/16-17:30:21.687 bcb0 Recovering log #3
+2023/06/16-17:30:21.694 bcb0 Reusing old log /home/kuratajr/.config/microsoft-edge-dev/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/06/16-17:34:07.989 bcb2 Level-0 table #5: started
+2023/06/16-17:34:08.008 bcb2 Level-0 table #5: 1025173 bytes OK
+2023/06/16-17:34:08.010 bcb2 Delete type=0 #3

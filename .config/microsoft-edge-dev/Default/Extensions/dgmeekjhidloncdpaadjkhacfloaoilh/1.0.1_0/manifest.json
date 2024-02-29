@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": "assets/favicon.png",
+      "default_popup": "index.html?#/popup",
+      "default_title": "Finlock Chrome Extension"
+   },
+   "background": {
+      "service_worker": "serviceWorker.js"
+   },
+   "content_scripts": [ {
+      "js": [ "contentPage.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "The FinLock Web Security extension blocks harmful or malicious websites accessed by users",
+   "icons": {
+      "128": "assets/favicon.png",
+      "19": "assets/favicon.png",
+      "48": "assets/favicon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhyfLb2gf/RexTcQFDe7NuZRLcV7VsPsJb4NSUQ/QaA1UwZtNM/j8oRUCOd+4GLrL1SLqOzpVR895UFAUy/NXFZv/FoCoXnYUet5OsrKBkkZhgqVo49zBlcDUILtOHFv8qi4NkPz5EAAs5Bff4ePGvhwc4VhD82PL+sLJLUA8YlnI1stYxGgAUjJVwluIFG8GruskbIBxp3f6f7QPZ/pHCXSCiqN3l/RLexR0BnufMr595UK8H0DcWsM7KbTkLo9mkZsov+KZlmS7ySRDxvnzauvwJcbygibo3U2PDnjYXoRuvcjGW3ica3jhgMD+Nxu/BhkOgdXNg4PChawGDqEHUQIDAQAB",
+   "manifest_version": 3,
+   "name": "Finlock Web Security",
+   "permissions": [ "storage", "tabs" ],
+   "short_name": "Finlock Web Security",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/css/contentstyle.css", "assets/framecontent.html", "assets/css/framestyle.css", "assets/options.html" ]
+   } ]
+}

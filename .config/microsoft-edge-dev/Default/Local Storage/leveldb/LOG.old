@@ -1,0 +1,7 @@
+2024/03/01-05:02:14.323 3 Reusing MANIFEST /home/kuratajr/.config/microsoft-edge-dev/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/01-05:02:14.327 3 Recovering log #20
+2024/03/01-05:02:14.329 3 Level-0 table #23: started
+2024/03/01-05:02:14.341 3 Level-0 table #23: 21297 bytes OK
+2024/03/01-05:02:14.341 3 Recovering log #23
+2024/03/01-05:02:14.342 3 Reusing old log /home/kuratajr/.config/microsoft-edge-dev/Default/Local Storage/leveldb/000023.log 
+2024/03/01-05:02:14.348 3 Delete type=0 #20

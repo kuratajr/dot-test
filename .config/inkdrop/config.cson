@@ -1,0 +1,41 @@
+"*":
+  core:
+    db:
+      machineId: "Jv_XtgkHr"
+    devMode: true
+    lastNavigationState:
+      editingNoteId: "note:JMFVE_zp8"
+      queryContext:
+        bookId: "book:YTfxpVgE4"
+        filterKeyword: ""
+        includeChildren: false
+        mode: "book"
+      sidebar:
+        workspace:
+          bookId: ""
+          visible: false
+    mainWindow:
+      fullscreen: false
+      maximized: false
+      position:
+        x: 14
+        y: 68
+      size:
+        h: 998
+        w: 938
+    server:
+      auth:
+        password: "bar"
+        username: "foo"
+      bindAddress: "127.0.0.1"
+      enabled: true
+      port: 19840
+    themes: [
+      "night-owl-dark-ui"
+      "github-preview"
+      "default-light-syntax"
+    ]
+  editor:
+    viewMode: "edit"
+editor:
+  viewMode: "preview"
